@@ -257,7 +257,7 @@ public static class gen
         f.WriteComment("empty directory in lib to avoid nuget adding a reference");
 
         f.WriteStartElement("file");
-        f.WriteAttributeString("src", "empty\\");
+        f.WriteAttributeString("src", "empty/");
         f.WriteAttributeString("target", string.Format("lib\\{0}", tfm.AsString()));
         f.WriteEndElement(); // file
     }
@@ -288,7 +288,7 @@ public static class gen
         write_license(f);
         f.WriteStartElement("repository");
         f.WriteAttributeString("type", "git");
-        f.WriteAttributeString("url", "https://github.com/ericsink/SQLitePCL.raw");
+        f.WriteAttributeString("url", "https://github.com/emclient/SQLitePCL.raw");
         f.WriteEndElement(); // repository
         f.WriteElementString("summary", "$summary$");
         f.WriteElementString("tags", PACKAGE_TAGS);

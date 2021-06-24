@@ -9,7 +9,7 @@
     <copyright>$copyright$</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">Apache-2.0</license>
-    <repository type="git" url="https://github.com/ericsink/SQLitePCL.raw" />
+    <repository type="git" url="https://github.com/emclient/SQLitePCL.raw" />
     <summary>$summary$</summary>
     <tags>sqlite;xamarin</tags>
     <releaseNotes>$releaseNotes$</releaseNotes>
@@ -34,10 +34,10 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="$src_path$\SQLitePCLRaw.batteries_v2.sqlcipher.internal.ios\bin\Release\Xamarin.iOS10\SQLitePCLRaw.batteries_v2.dll" target="lib\Xamarin.iOS10\" />
-    <file src="$src_path$\SQLitePCLRaw.batteries_v2.sqlcipher.dllimport\bin\Release\netstandard2.0\SQLitePCLRaw.batteries_v2.dll" target="lib\net461\" />
-    <file src="$src_path$\SQLitePCLRaw.batteries_v2.sqlcipher.dynamic\bin\Release\netstandard2.0\SQLitePCLRaw.batteries_v2.dll" target="lib\netcoreapp3.1\" />
-    <file src="$src_path$\SQLitePCLRaw.nativelibrary\bin\Release\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll" target="lib\netcoreapp3.1\" />
-    <file src="$src_path$\SQLitePCLRaw.batteries_v2.sqlcipher.dllimport\bin\Release\netstandard2.0\SQLitePCLRaw.batteries_v2.dll" target="lib\netstandard2.0\" />
+    <file src="$src_path$/SQLitePCLRaw.batteries_v2.sqlcipher.internal.ios/bin/Release/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll" target="lib\Xamarin.iOS10\" />
+    <file src="$src_path$/SQLitePCLRaw.batteries_v2.sqlcipher.dllimport/bin/Release/netstandard2.0/SQLitePCLRaw.batteries_v2.dll" target="lib\net461\" />
+    <file src="$src_path$/SQLitePCLRaw.batteries_v2.sqlcipher.dynamic/bin/Release/netstandard2.0/SQLitePCLRaw.batteries_v2.dll" target="lib\netcoreapp3.1\" />
+    <file src="$src_path$/SQLitePCLRaw.nativelibrary/bin/Release/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll" target="lib\netcoreapp3.1\" />
+    <file src="$src_path$/SQLitePCLRaw.batteries_v2.sqlcipher.dllimport/bin/Release/netstandard2.0/SQLitePCLRaw.batteries_v2.dll" target="lib\netstandard2.0\" />
   </files>
 </package>

@@ -9,7 +9,7 @@
     <copyright>$copyright$</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">Apache-2.0</license>
-    <repository type="git" url="https://github.com/ericsink/SQLitePCL.raw" />
+    <repository type="git" url="https://github.com/emclient/SQLitePCL.raw" />
     <summary>$summary$</summary>
     <tags>sqlite;xamarin</tags>
     <releaseNotes>$releaseNotes$</releaseNotes>
@@ -22,9 +22,9 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="$src_path$\SQLitePCLRaw.batteries_v2.cil\bin\Release\net5.0\SQLitePCLRaw.batteries_v2.dll" target="lib\net5.0\" />
-    <file src="$src_path$\SQLitePCLRaw.provider.cil\sqlite3.dll" target="lib\net5.0\" />
-    <file src="$src_path$\SQLitePCLRaw.provider.cil\sgwin32.dll" target="lib\net5.0\" />
-    <file src="$src_path$\SQLitePCLRaw.provider.cil\sgucrt.dll" target="lib\net5.0\" />
+    <file src="$src_path$/SQLitePCLRaw.batteries_v2.cil/bin/Release/net5.0/SQLitePCLRaw.batteries_v2.dll" target="lib\net5.0\" />
+    <file src="$src_path$/SQLitePCLRaw.provider.cil/sqlite3.dll" target="lib\net5.0\" />
+    <file src="$src_path$/SQLitePCLRaw.provider.cil/sgwin32.dll" target="lib\net5.0\" />
+    <file src="$src_path$/SQLitePCLRaw.provider.cil/sgucrt.dll" target="lib\net5.0\" />
   </files>
 </package>
